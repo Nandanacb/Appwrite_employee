@@ -66,6 +66,7 @@ class _EmployeescreenState extends State<Employeescreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Employee screen"),
+        centerTitle: true,
       ),
       body: Padding(
         padding: const EdgeInsets.all(10),
